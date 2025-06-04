@@ -10,6 +10,9 @@ source venv/bin/activate
 # Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
+pip install --upgrade openai
+openai --help
+
 
 echo "Gravlosa setup complete. Run it with:"
 echo "streamlit run app.py"
