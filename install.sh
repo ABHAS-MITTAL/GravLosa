@@ -10,9 +10,8 @@ source venv/bin/activate
 # Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
-pip install --upgrade openai
-openai --help
-pip install openai==0.28
+openai migrate
+
 
 
 echo "Gravlosa setup complete. Run it with:"
