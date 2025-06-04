@@ -11,6 +11,7 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 openai migrate
+pip install openai==0.28
 
 
 
