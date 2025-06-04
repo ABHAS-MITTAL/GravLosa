@@ -1,5 +1,6 @@
 import streamlit as st
 from chatbot import get_gravlosa_reply
+from openai import OpenAI
 
 st.set_page_config(page_title="Gravlosa", page_icon="🤖")
 st.title(":robot_face: Gravlosa - Your AI Chat Assistant")
